@@ -1,41 +1,47 @@
 .btn{
     width: 60%;
-    color: #FFFFFF; 
-    background-color: blue; 
+    color: #000000; 
+    background-color: #00F5D4; 
     padding: 15px; 
     border-radius: 10px; 
-    border-color: blue;
+    border-color: #00F5D4;
+    box-shadow: #00F5D4 0px 1px 10px;
 }
 
 .btn:hover{
     width: 60%;
-    color: #000000; 
-    background-color: lightblue; 
+    color: #FFFFFF; 
+    background-color: teal; 
     padding: 15px; 
     border-radius: 10px; 
-    border-color: lightblue;
+    border: 2px teal double;
+    border-color: teal ;
+    box-shadow: teal 1px 1px 10px;
 }
 
 .btn2{
+    width: 60%;
+    color: #000000; 
+    background-color: #FF5E00; 
+    padding: 15px; 
+    border-radius: 10px; 
+    border-color: #FF5E00;
+    box-shadow: #FF5E00 0px 0px 10px;
+}
+
+.btn2:hover{
     width: 60%;
     color: #FFFFFF; 
     background-color: red; 
     padding: 15px; 
     border-radius: 10px; 
     border-color: red;
-}
-
-.btn2:hover{
-    width: 60%;
-    color: #000000; 
-    background-color: orange; 
-    padding: 15px; 
-    border-radius: 10px; 
-    border-color: orange;
+    box-shadow: red 0px 0px 10px;
 }
 
 .h1{
     font-weight: lighter;
+    text-shadow: #00F5D4 0px 0px 8px;
 }
 
 .flex{
