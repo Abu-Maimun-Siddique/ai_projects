@@ -49,3 +49,27 @@
     
 }
 
+.normal{
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #00F5D4;
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: #FFFFFF 0px 0px 15px;
+    border-radius: 13px;
+}
+
+.normal:hover{
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 2px #FFFFFF double;
+    box-shadow: #FFFFFF 0px 0px 15px;
+    border-radius: 13px;
+}
+

@@ -43,3 +43,26 @@
     
 }
 
+.neon{
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: midnightblue;
+    padding: 25px;
+    box-shadow:inset #000000 0px 0px 8px;
+    border-radius: 13px;
+}
+
+.neon:hover{
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    background-color: red;
+    padding: 25px;
+    box-shadow:inset grey 0px 0px 10px;
+    border-radius: 13px;
+}
