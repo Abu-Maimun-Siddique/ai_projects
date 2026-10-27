@@ -13,3 +13,23 @@
     border-radius: 10px; 
     border-color: lightblue;
 }
+
+.btn2{
+    color: #FFFFFF; 
+    background-color: red; 
+    padding: 15px; 
+    border-radius: 10px; 
+    border-color: red;
+}
+
+.btn2:hover{
+    color: #000000; 
+    background-color: tomato; 
+    padding: 15px; 
+    border-radius: 10px; 
+    border-color: tomato;
+}
+
+.h1{
+    font-weight: lighter;
+}

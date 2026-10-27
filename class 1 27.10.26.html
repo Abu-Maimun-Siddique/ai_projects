@@ -13,13 +13,13 @@
     <h2 style="color: red;">An AI Model to recognize the following objects</h2>
     <br><br><br>
     <hr style="width: 1000px;">
-    <h1>Smartphone</h1>
+    <h1 class="h1">Smartphone</h1>
     <hr style="width: 1000px;">
-    <h1>Water bottle</h1>
+    <h1 class="h1">Water bottle</h1>
     <hr style="width: 1000px;">
-    <h1>Spoon</h1>
+    <h1 class="h1">Spoon</h1>
     <hr style="width: 1000px;">
-    <h1>Watch</h1>
+    <h1 class="h1">Watch</h1>
     <hr style="width: 1000px;">
     <br><br><br><br>
     <h1>Webcam View</h1>
@@ -27,8 +27,19 @@
         
     </div></center>
     <br>
-    <button class="btn">Capture</button>
+    <button class="btn" onclick="getsnap()">Capture</button>
     <br><br><br>
+    <h1 id="ss1"></h1>
+    <center><div id="pic">
+        
+    </div></center>
+    <br>
+    <button class="btn2" id="ss2" onclick="getsnap()">Predict</button>
+    <br><br>
+    <h2 id="label"></h2>
+    <h2 id="acc"></h2>
+
+
     <script src="class 1 27.10.26.js"></script>
 </body>
 </html>
