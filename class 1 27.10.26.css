@@ -1,4 +1,5 @@
 .btn{
+    width: 60%;
     color: #FFFFFF; 
     background-color: blue; 
     padding: 15px; 
@@ -7,6 +8,7 @@
 }
 
 .btn:hover{
+    width: 60%;
     color: #000000; 
     background-color: lightblue; 
     padding: 15px; 
@@ -15,6 +17,7 @@
 }
 
 .btn2{
+    width: 60%;
     color: #FFFFFF; 
     background-color: red; 
     padding: 15px; 
@@ -23,13 +26,20 @@
 }
 
 .btn2:hover{
+    width: 60%;
     color: #000000; 
-    background-color: tomato; 
+    background-color: orange; 
     padding: 15px; 
     border-radius: 10px; 
-    border-color: tomato;
+    border-color: orange;
 }
 
 .h1{
     font-weight: lighter;
 }
+
+.flex{
+    display: flex;
+    
+}
+
