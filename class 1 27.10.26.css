@@ -67,3 +67,12 @@
     border-radius: 13px;
 }
 
+.captured-image{
+    border: 3px solid #FF5E00;
+    width: 413px;
+    height: 310px;
+}
+.captured-image-header{
+    color: #FF5E00;
+}
+

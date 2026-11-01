@@ -56,8 +56,10 @@
     text-decoration: none;
     color: #00F5D4;
     background-color: #000000;
+    text-shadow: #00F5D4 0px 0px 10px,#00F5D4 0px 0px 7px;
     padding: 20px;
-    box-shadow: #FFFFFF 0px 0px 15px;
+    border: 3px #00F5D4 solid;
+    box-shadow: #00F5D4 0px 0px 15px, #00F5D4 0px 0px 7px;
     border-radius: 13px;
 }
 
@@ -66,6 +68,7 @@
     font-size: 20px;
     text-decoration: none;
     color: #000000;
+    text-shadow: #FFFFFF 0px 0px 10px;
     background-color: #FFFFFF;
     padding: 20px;
     border: 2px #FFFFFF double;
