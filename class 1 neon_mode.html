@@ -15,7 +15,7 @@
     <center><h1 style="text-shadow: #00F5D4 0px 0px 6px,#00F5D4 0px 0px 10px;">Object Classification</h1>
     <h2 style="color: #FF5E00; text-shadow: #FF5E00 0px 0px 8px, #FF5E00 0px 0px 16px;">An AI Model to recognize the following objects</h2>
     <br><br><br>
-    <div style="background-color: #101010; width: 65%; padding: 20px; border-radius: 25px; box-shadow: inset grey 0px -2px 10px;">
+    <div style="background-color: #101010; width: 65%; padding: 20px; border-radius: 25px; box-shadow:  #00F5D4 0px -2px 10px;">
         <hr style="width: 1000px; border-color: #00F5D4; box-shadow: #00F5D4 0px 0px 8px;">
         <h1 class="h1"> Smartphone</h1>
         <hr style="width: 1000px; border-color: #00F5D4; box-shadow: #00F5D4 0px 0px 8px;">
@@ -30,8 +30,8 @@
     <br><br><br><br>
     <div class="flex">
         <div  style="background-color: #101010; width: 40%; padding: 20px; border-radius: 25px; box-shadow: inset grey 0px -2px 15px; margin-left: 75px; text-shadow: #00F5D4 0px 0px 8px;"><h1>Webcam View</h1>
-        <div style="border: 3px solid #00F5D4; border-color: #00F5D4; width: 60%; height: 320px; text-align: center; box-shadow: #00F5D4 0px 0px 8px;" id="camera">
-            
+        <div style="border: 3px solid #00F5D4; border-color: #00F5D4; width: 60%; height: 320px; text-align: center; box-shadow: #00F5D4 0px 0px 8px; background-color: #000000;" id="camera">
+    
         </div>
         <br><br>
         <button class="btn" onclick="getsnap()">Capture</button>
@@ -44,7 +44,7 @@
                 
             </div>
             <br><br>
-            <button class="btn2" id="ss2" onclick="getsnap()">Predict</button>
+            <button class="btn2" id="ss2" onclick="setup()">Predict</button>
             <br><br>
             <h2 id="label"></h2>
             <h2 id="acc"></h2>

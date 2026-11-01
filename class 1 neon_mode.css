@@ -73,3 +73,13 @@
     border-radius: 13px;
 }
 
+.captured-image{
+    border: 3px solid #FF5E00;
+    box-shadow: #FF5E00 0px 0px 8px,#FF5E00 0px 0px 10px;
+    width: 413px;
+    height: 310px;
+}
+.captured-image-header{
+    text-shadow: #FF5E00 0px 0px 10px;
+    color: #FF5E00;
+}
