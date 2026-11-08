@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Selfie</title>
+    <link rel="stylesheet" href="class 2 08.11.26.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body style="background-color: #22dce6; color:midnightblue; text-align: center; font-family: Arial, sans-serif;">
+    <h1 style="font-size: 40px; font-weight: lighter;">Voice Selfie App</h1>
+    <img src="gif/selfie1.gif" alt="" width="320px" style="border-radius: 50%;">
+    <br>
+    <br>
+    <hr style="width: 80%; border-color:midnightblue;">
+    <h2>Say "my selfie please"</h2>
+    <br>
+    <p>Your Voice Output</p>
+    <br>
+    <textarea name="" id="box" cols="60" rows="10" readonly style="background-color: black; border-radius: 5px; color: #FFFFFF;"></textarea>
+    <br><br>
+    <button onclick="startrec()" style="padding: 10px; border-radius: 5px; background-color: orangered; border-color: orangered; color: black; border: 1px solid red;">Start</button>
+    <p>Press the "start" button to voice input</p>
+    <br><br>
+    <center>
+        <h1>Your Webcam</h1>
+        <br>
+        <div id="camera"></div>
+        <br><br><br><br>
+        <h1 id="chead"></h1>
+        <br>
+        <div id="pic"></div>
+    </center>
+    <br><br><br><br><br><br><br>
+    <script src="class 2 08.11.26.js"></script>
+
+</body>
+</html>
