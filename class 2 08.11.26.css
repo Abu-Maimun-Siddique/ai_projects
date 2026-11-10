@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-color:  aqua;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px; 
+    background-color: orangered;  
+    color: black; 
+    box-shadow: inset 0px 0px 6px grey;
+}
+
+.btn:hover{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px; 
+    background-color: navy; 
+    color: #FFFFFF; 
+    border: 2px solid navy;
+    box-shadow: inset 0px 0px 8px grey;
+}
+
+.camera{
+    border: 3px solid navy;
+    background-color: black;
+}
+
+.chead{
+    color: orangered;   
+}
+
+.pic{
+    border: 3px solid orangered;
+}
