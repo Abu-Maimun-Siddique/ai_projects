@@ -16,7 +16,7 @@ recognition.onresult = function(event){
     box.innerText = voicein.toLowerCase();
     voicein = voicein.toLowerCase();
 
-    if(voicein.includes('selfie please')){
+    if(voicein.includes('selfie please'),('my selfie please'),('take my selfie'),('selfie')){
         Webcam.attach("camera");
         camera.className = "camera";
         var syn = window.speechSynthesis;
